@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Read Smart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Text library">
+        <div class="brand-lockup">
+          <div class="brand-mark">RS</div>
+          <div>
+            <p class="eyebrow">Read Smart</p>
+            <h1>Bilingual marketing reader</h1>
+          </div>
+        </div>
+
+        <div class="control-group">
+          <label for="languageMode">Translation direction</label>
+          <select id="languageMode">
+            <option value="auto">Auto detect</option>
+            <option value="en-es">English to Spanish</option>
+            <option value="es-en">Spanish to English</option>
+          </select>
+        </div>
+
+        <section class="panel">
+          <div class="panel-header">
+            <h2>Original texts</h2>
+            <span id="textCount">0</span>
+          </div>
+          <div id="textList" class="text-list"></div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-header">
+            <h2>Add your text</h2>
+          </div>
+          <form id="textForm" class="text-form">
+            <input id="customTitle" type="text" placeholder="Title" autocomplete="off" />
+            <textarea id="customBody" rows="7" placeholder="Paste an English or Spanish work text here"></textarea>
+            <button type="submit">Add text</button>
+          </form>
+        </section>
+      </aside>
+
+      <main class="reader">
+        <header class="reader-top">
+          <div>
+            <p class="eyebrow">Expat digital marketing</p>
+            <h2 id="activeTitle">Loading...</h2>
+          </div>
+          <div class="reader-actions">
+            <button id="decreaseFont" type="button" aria-label="Decrease font size">A-</button>
+            <button id="increaseFont" type="button" aria-label="Increase font size">A+</button>
+          </div>
+        </header>
+
+        <article id="readingText" class="reading-text" aria-live="polite"></article>
+
+        <section class="glossary-editor" aria-label="Custom glossary entry">
+          <div>
+            <p class="eyebrow">Personal glossary</p>
+            <h3>Teach the reader a new word</h3>
+          </div>
+          <form id="glossaryForm" class="glossary-form">
+            <input id="wordInput" type="text" placeholder="word" autocomplete="off" />
+            <input id="translationInput" type="text" placeholder="translation" autocomplete="off" />
+            <select id="partInput">
+              <option value="noun">noun</option>
+              <option value="verb">verb</option>
+              <option value="adjective">adjective</option>
+              <option value="adverb">adverb</option>
+              <option value="phrase">phrase</option>
+            </select>
+            <input id="explanationInput" type="text" placeholder="short explanation" autocomplete="off" />
+            <button type="submit">Save</button>
+          </form>
+        </section>
+      </main>
+    </div>
+
+    <div id="wordPopup" class="word-popup" role="dialog" aria-hidden="true">
+      <div class="popup-tag-row">
+        <span id="popupPart" class="part-tag">word</span>
+        <span id="popupDirection" class="direction-tag">auto</span>
+      </div>
+      <h3 id="popupWord"></h3>
+      <p id="popupTranslation" class="translation"></p>
+      <p id="popupExplanation" class="explanation"></p>
+      <button id="popupAdd" type="button">Add to glossary</button>
+    </div>
+
+    <script src="app.js?v=20260625-context-v2"></script>
+  </body>
+</html>

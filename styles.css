@@ -389,11 +389,6 @@ button:hover {
   color: white;
 }
 
-/* ---- custom text edit ---- */
-.text-card {
-  grid-template-columns: minmax(0, 1fr) auto auto;
-}
-
 .text-edit-form {
   grid-column: 1 / -1;
   display: grid;

@@ -20,6 +20,48 @@ Para una persona expatriada, entender cada matiz importa: no solo las palabras t
     title: "Analytics note to a manager",
     tag: "Mixed digital marketing",
     body: `The dashboard looks healthy, but the story is more nuanced. Organic traffic grew after the content refresh, while paid search brought faster intent signals. Necesitamos explicar el resultado sin exagerar, porque el equipo directivo quiere acciones, no solo métricas.`
+  },
+  {
+    id: "performance-report-c1",
+    title: "Q2 performance debrief: where the funnel leaked",
+    tag: "English · Performance marketing · C1",
+    body: `The Q2 paid media audit revealed a consistent pattern of mid-funnel attrition that our top-of-funnel ROAS figures had been masking. Click-through rates on prospecting campaigns held steady at 3.2%, yet the post-click conversion rate collapsed at the product detail page, suggesting a severe disconnect between ad creative and landing page proposition.
+
+We reallocated 22% of the retargeting budget toward high-intent audience segments identified through predictive behavioural modelling, and introduced sequential messaging to nurture undecided users across three touchpoints before pushing a conversion-oriented CTA. The incremental lift in qualified leads was 18%, though cost-per-acquisition remained above the agreed threshold due to auction volatility in the Spanish-language markets.
+
+The recommendation going forward is to decouple brand awareness spend from performance budgets entirely, establish separate attribution windows for each objective, and pressure-test the checkout flow with a multivariate experiment targeting mobile-first users. Without resolving the on-site friction, upstream optimisation will continue to yield diminishing returns.`
+  },
+  {
+    id: "seo-content-mixed",
+    title: "Why your content calendar is not an SEO strategy",
+    tag: "English · Content & SEO · B2/C1",
+    body: `Many marketing teams confuse content production with content strategy. Publishing three blog posts a week feels productive, but without keyword intent mapping, topical authority clustering, and a clear internal linking architecture, that output rarely compounds into organic growth.
+
+Search engines have moved well beyond keyword density. What Google's ranking systems now reward is demonstrated expertise on a topic, consistent crawlability of your site structure, and content that satisfies the full spectrum of user intent — informational, navigational, and transactional — within a coherent content ecosystem.
+
+The practical implication is straightforward: before briefing another article, audit your existing content for cannibalisation, identify the pillar pages that deserve authority consolidation, and map each content piece to a specific stage of the decision journey. A smaller, well-structured library will outrank a bloated archive almost every time. Quantity without architecture is just noise with a publication date.`
+  },
+  {
+    id: "influencer-presentacion-c1",
+    title: "Influencers: por qué el alcance nos ha estado mintiendo",
+    tag: "Español · Social media · C1",
+    body: `Llevamos dos años optimizando campañas de influencer marketing sobre una métrica que no predice ventas. El alcance potencial nos dice cuánta gente podría ver el contenido. No nos dice nada sobre quién compra, quién recomienda ni quién vuelve.
+
+En la última campaña con la cuenta de moda, trabajamos con tres perfiles de entre 800.000 y 1,2 millones de seguidores. El CPM era competitivo, el contenido funcionó bien en términos de visualizaciones, y el cliente estaba contento con los reportes. El problema es que el CRM no registró incremento atribuible en nuevos clientes durante las cuatro semanas de activación. Cero tracción real.
+
+Lo que sí funcionó fueron dos microinfluencers de nicho con menos de 40.000 seguidores cada uno, audiencia muy concentrada en el segmento objetivo y una tasa de conversión en el enlace de bio que triplicó la media de la campaña.
+
+La propuesta para el Q3 es reorganizar la inversión: menos presupuesto en perfiles grandes para amplificación de marca, y más en creadores pequeños con audiencias verificadas e historial de conversión demostrable. Además, los contenidos que generen tracción orgánica los escalaremos vía paid con whitelisting, para no perder la autenticidad que hace que funcionen.`
+  },
+  {
+    id: "datos-performance-mixed",
+    title: "Resumen semanal: señales que no podemos ignorar",
+    tag: "Español · Performance · B2/C1",
+    body: `Esta semana los datos de campaña mostraron una divergencia significativa entre las métricas de plataforma y los resultados reales en el CRM. El píxel sigue reportando conversiones que no se reflejan en ingresos reales, lo que apunta a un problema de atribución post-iOS que necesitamos abordar antes de tomar decisiones de presupuesto para el tercer trimestre.
+
+El equipo de paid ha propuesto migrar a un modelo de atribución basado en datos propios mediante la implementación de una API de conversiones del lado del servidor. No es una solución inmediata, pero es la única manera de recuperar visibilidad real sobre el recorrido del usuario sin depender de cookies de terceros, que en los mercados europeos ya tienen una tasa de rechazo superior al 60%.
+
+Mi recomendación es priorizar esta migración técnica por encima de cualquier optimización táctica de campañas. Optimizar sobre datos rotos produce conclusiones rotas. Necesito luz verde del equipo directivo esta semana para asignar los recursos de desarrollo necesarios y no perder la ventana de implementación antes del lanzamiento de septiembre.`
   }
 ];
 

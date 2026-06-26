@@ -75,7 +75,7 @@ select {
   margin: 0 0 6px;
   color: var(--brand);
   font-size: 12px;
-  font-weight: 800;
+  font-weight: 400;
   letter-spacing: 0.14em;
   text-transform: uppercase;
 }
